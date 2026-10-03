@@ -1,0 +1,16 @@
+:root { font-family: system-ui, sans-serif; color: #1f2933; }
+body { margin: 0; background: #f4f6f8; }
+.app { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 1.4rem; margin: 0 0 4px; }
+.sub { color: #52606d; margin: 0 0 16px; font-size: .9rem; }
+form.add { display: flex; gap: 8px; margin-bottom: 16px; }
+input, select, button { font: inherit; padding: 6px 10px; border: 1px solid #cbd2d9; border-radius: 6px; background: #fff; }
+input.name { flex: 1; }
+button { cursor: pointer; }
+button.primary { background: #2563eb; color: #fff; border-color: #2563eb; }
+ul.tasks { list-style: none; margin: 0; padding: 0; }
+li.task { display: flex; align-items: center; gap: 8px; background: #fff; border: 1px solid #e4e7eb; border-radius: 6px; padding: 6px 10px; margin-bottom: 4px; }
+li.task .title { flex: 1; }
+.badge { font-size: .75rem; padding: 2px 8px; border-radius: 999px; color: #fff; }
+.badge.Low { background: #3ebd93; } .badge.Medium { background: #f0b429; } .badge.High { background: #e12d39; }
+.empty { color: #7b8794; padding: 16px; text-align: center; }

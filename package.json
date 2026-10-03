@@ -1,0 +1,10 @@
+{
+  "name": "frontend-dom-benchmark",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix apps/react i && npm --prefix apps/vue i && npm --prefix apps/svelte i && npm --prefix apps/angular i && npm --prefix benchmark i",
+    "build:all": "npm --prefix apps/react run build && npm --prefix apps/vue run build && npm --prefix apps/svelte run build && npm --prefix apps/angular run build",
+    "bench": "npm --prefix benchmark run bench && npm --prefix benchmark run report",
+    "report": "npm --prefix benchmark run report"
+  }
+}
